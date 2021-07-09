@@ -6,8 +6,17 @@
 .skills-title {
   font-size: 30px;
   font-weight: bold;
-  text-transform: uppercase;
   text-align: center;
+  margin-bottom: 0;
+}
+
+.parrafo-servicios {
+  font-size: 20px;
+  font-weight:inherit;
+  color: rgb(78, 9, 61);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20;
 }
 
 .skills-skill {

@@ -10,6 +10,15 @@
   --btncolor2: rgba(67, 67, 219, 0.493);
   --bodycolor1: white ;
   --bodycolor2:rgb(80, 108, 201);
+  --point:rgb(219, 164, 12);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px;
 }
 
 body {
@@ -29,8 +38,12 @@ a {
   padding-right: 25px;
 }
 .vertical-padding {
-  padding-top: 25px;
+  padding-top: 70px;
   padding-bottom: 25px;
+}
+
+.point{
+  color: var(--point);
 }
 
 @media (min-width: 950px) {
@@ -39,7 +52,7 @@ a {
     padding-right: 70px;
   }
   .vertical-padding {
-    padding-top: 70px;
+    padding-top: 100px;
     padding-bottom: 70px;
   }
 }
