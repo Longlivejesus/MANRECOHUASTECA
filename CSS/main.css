@@ -1,29 +1,45 @@
 :root {
-  --theme-color: white;
+  --theme-color: rgba(214, 217, 235, 0.932);
   --primary-color: #124f88;
-  --secundary-color: #F7C331;
+  --secundary-color: #ebb608;
   --text-color-inverse: white;
   --text-color: black;
   --navbar-shallow-color: #e5e5e5;
   --menu-mobile-background-color: #3A4460;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  --btncolor1: rgba(36, 59, 128, 0.986);
+  --btncolor2: rgba(67, 67, 219, 0.493);
+  --bodycolor1: white ;
+  --bodycolor2:rgb(80, 108, 201);
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: var(--theme-color);
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(180deg, var(--bodycolor1) 0%, var(--bodycolor2) 100%);
   color: var(--text-color);
-  padding-top: 8rem;
+  padding-top: 70px;
 }
 
-a{
+a {
   text-decoration: none;
   color: var(--text-color);
+}
+
+.horizontal-padding {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.vertical-padding {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+@media (min-width: 950px) {
+  .horizontal-padding {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .vertical-padding {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
 }
