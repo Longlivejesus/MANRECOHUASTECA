@@ -1,0 +1,55 @@
+.datos-contacto {
+  max-width: 980px;
+  margin: 0 auto;
+  background-color: rgba(126, 124, 124, 0.452);
+  border-style: double;
+  box-shadow: 0 4px 10px rgba(73, 72, 72, 0.479);
+  border-radius: 10px;
+}
+
+.contacto-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.contacto-parrafo {
+  font-size: 20px;
+  font-weight:inherit;
+  color: rgb(212, 209, 209);
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.informacion-contacto h3, .informacion-contacto p{
+  font-size: 15px;
+  padding: 0.5em 0.7em;
+}
+
+.informacion-contacto{
+  padding-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tel{
+  color: rgb(35, 22, 94);
+  font-style: oblique;
+}
+
+@media(min-width: 950px) {
+  .contacto-title {
+    font-size: 50px;
+  }
+  .informacion-contacto h3,.informacion-contacto p{
+    font-size: 20px;
+    padding: 0.5em 1em;
+  }
+  .informacion-contacto{
+    padding-top: 4rem;
+  }
+
+}
